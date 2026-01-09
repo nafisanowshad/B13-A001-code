@@ -46,7 +46,9 @@
   justify-content: space-between;
 }
 
-.nav-container .nav-btn {
+.nav-container .btn,
+.hero-container .btn3,
+.hero-container .btn4 {
   font-family: "Inter", sans-serif;
   background: rgba(70, 145, 101, 1);
   color: #ffffff;
@@ -59,6 +61,103 @@
   cursor: pointer;
 }
 
+.hero-container .btn3 {
+  padding: 19px 19px;
+}
+
+.hero-container .btn4 {
+  background: transparent;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  padding: 18px 17px;
+  margin-left: 7px;
+}
+
 .hero-section {
   margin-top: 17px;
+  width: 100%;
+  height: 608px;
+  background: url("assets/hero-bg.png"), rgba(0, 25, 49, 0.8);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.hero-container {
+  padding: 2px 127px 132px 118px;
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
+.hero-container .btn2 {
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+  color: rgba(70, 145, 101, 1);
+  border-radius: 19px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 11px;
+  line-height: auto;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.hero-container h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 84px;
+  opacity: 0.9;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.hero-container .green-text {
+  color: rgba(48, 184, 104, 1);
+}
+
+.hero-container p {
+  margin-top: 14px;
+  font-family: "Inter", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 19px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+/* .note-section{
+    font-family: "Inter", sans-serif;
+    padding: 0 120px;
+    margin-top: 48px;
+    text-align: center;
+    gap: 15px;
+}
+
+.note-section h2{
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.note-section p{
+  color:rgba(98, 115, 130, 1);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.card-container{
+    margin-top: 40px;
+}
+
+.card-container .card{
+
+} */
