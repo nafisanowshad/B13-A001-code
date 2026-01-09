@@ -301,3 +301,43 @@
   font-weight: 400;
   line-height: 20px;
 }
+
+.footer-section {
+  font-family: "Inter", sans-serif;
+  background: rgba(0, 25, 49, 1);
+  height: 286px;
+  padding: 120px 120px 30px 120px;
+}
+
+.footer-section .up-part {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+
+.footer-section .up-part-text h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footer-section .up-part-text img {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  height: 18px;
+  gap: 16;
+  margin-right: 13px;
+}
+
+.lower-part {
+  color: rgba(250, 250, 250, 1);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
