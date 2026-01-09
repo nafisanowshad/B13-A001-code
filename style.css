@@ -135,29 +135,82 @@
   margin-bottom: 32px;
 }
 
-/* .note-section{
-    font-family: "Inter", sans-serif;
-    padding: 0 120px;
-    margin-top: 48px;
-    text-align: center;
-    gap: 15px;
+.note-section {
+  font-family: "Inter", sans-serif;
+  padding: 0 120px;
+  margin-top: 48px;
+  text-align: center;
+  gap: 8px;
 }
 
-.note-section h2{
-    font-weight: 700;
-    font-size: 47px;
+.note-header {
+  padding: 0 120px;
 }
 
-.note-section p{
-  color:rgba(98, 115, 130, 1);
-  font-weight: 400;
+.note-header h2 {
+  color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+  font-size: 48px;
+  font-style: Bold;
+  line-height: 58px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.note-header p {
+  margin-top: 15px;
+  color: rgba(98, 115, 130, 1);
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 42px;
+}
+
+.card-container {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+
+.card {
+  border-radius: 9px;
+  box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.08);
+  background: white;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 24px;
+}
+
+.card i {
+  background: rgba(249, 85, 85, 1);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card h3 {
+  margin: 0 16px;
+  font-size: 20px;
+  color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+  text-align: center;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: rgba(98, 115, 130, 1);
   font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
 }
-
-.card-container{
-    margin-top: 40px;
-}
-
-.card-container .card{
-
-} */
